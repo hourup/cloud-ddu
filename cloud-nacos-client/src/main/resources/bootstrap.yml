@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cloud-nacos-client
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.199.94.62:8848
+        namespace: 0667a8ea-9520-4723-a281-920351bfc522
+      config:
+        server-addr: 139.199.94.62:8848
+        namespace: 0667a8ea-9520-4723-a281-920351bfc522
+        group: cloud-ddu
+        file-extension: yaml
